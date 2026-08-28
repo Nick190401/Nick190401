@@ -8,28 +8,16 @@
       <stop offset="0.5" stop-color="#0c1015" />
       <stop offset="1" stop-color="#0d1117" />
     </linearGradient>
-    <clipPath id="ticker-clip">
-      <rect x="1" y="1" width="1198" height="174" rx="13" />
-    </clipPath>
-    <linearGradient id="edge-left" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0d1117" />
-      <stop offset="1" stop-color="#0d1117" stop-opacity="0" />
-    </linearGradient>
-    <linearGradient id="edge-right" x1="1" y1="0" x2="0" y2="0">
-      <stop offset="0" stop-color="#0d1117" />
-      <stop offset="1" stop-color="#0d1117" stop-opacity="0" />
-    </linearGradient>
   </defs>
 
   <style>
     .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
-    .forward { animation: forward 24s linear infinite; }
-    .reverse { animation: reverse 28s linear infinite; }
-    .forward-slow { animation: forward 32s linear infinite; }
-    @keyframes forward { to { transform: translateX(-1200px); } }
-    @keyframes reverse { from { transform: translateX(-1200px); } to { transform: translateX(0); } }
+    .row-a { animation: row 5.4s ease-in-out infinite; }
+    .row-b { animation: row 5.4s 1.8s ease-in-out infinite; }
+    .row-c { animation: row 5.4s 3.6s ease-in-out infinite; }
+    @keyframes row { 0%, 100% { opacity: .58; } 35%, 60% { opacity: 1; } }
     @media (prefers-reduced-motion: reduce) {
-      .forward, .reverse, .forward-slow { animation: none; }
+      .row-a, .row-b, .row-c { animation: none; opacity: 1; }
     }
   </style>
 
@@ -37,21 +25,15 @@
   <rect x="0.5" y="0.5" width="1199" height="175" rx="13.5" fill="none" stroke="#30363d" />
   <path d="M 26 58 H 1174 M 26 116 H 1174" stroke="#ffffff" stroke-opacity="0.07" />
 
-  <g clip-path="url(#ticker-clip)" class="mono" font-size="14" letter-spacing="2.1">
-    <g class="forward" fill="#f1f1f1">
-      <text x="42" y="37">TYPESCRIPT · REACT · NEXT.JS · NODE.JS · POSTGRESQL · SUPABASE · DOCKER ·</text>
-      <text x="1242" y="37">TYPESCRIPT · REACT · NEXT.JS · NODE.JS · POSTGRESQL · SUPABASE · DOCKER ·</text>
+  <g class="mono" font-size="14" letter-spacing="2.1">
+    <g class="row-a" fill="#f1f1f1" text-anchor="middle">
+      <text x="600" y="37">TYPESCRIPT · REACT · NEXT.JS · NODE.JS · POSTGRESQL · SUPABASE · DOCKER</text>
     </g>
-    <g class="reverse" fill="#8e9295">
-      <text x="42" y="95">C++ · X86-64 ASM · WINDOWS API · CMAKE · DIRECTX · IMGUI · PYTHON · NATIVE SYSTEMS ·</text>
-      <text x="1242" y="95">C++ · X86-64 ASM · WINDOWS API · CMAKE · DIRECTX · IMGUI · PYTHON · NATIVE SYSTEMS ·</text>
+    <g class="row-b" fill="#8e9295" text-anchor="middle">
+      <text x="600" y="95">C++ · X86-64 ASM · WINDOWS API · CMAKE · DIRECTX · IMGUI · PYTHON · NATIVE SYSTEMS</text>
     </g>
-    <g class="forward-slow" fill="#f1f1f1">
-      <text x="42" y="153">X64DBG · IDA · GHIDRA · CHEAT ENGINE · WINDBG · FRIDA · RUNTIME ANALYSIS · GAME SECURITY ·</text>
-      <text x="1242" y="153">X64DBG · IDA · GHIDRA · CHEAT ENGINE · WINDBG · FRIDA · RUNTIME ANALYSIS · GAME SECURITY ·</text>
+    <g class="row-c" fill="#f1f1f1" text-anchor="middle">
+      <text x="600" y="153">X64DBG · IDA · GHIDRA · CHEAT ENGINE · WINDBG · FRIDA · RUNTIME ANALYSIS · GAME SECURITY</text>
     </g>
   </g>
-
-  <rect x="1" y="1" width="88" height="174" rx="13" fill="url(#edge-left)" />
-  <rect x="1111" y="1" width="88" height="174" rx="13" fill="url(#edge-right)" />
 </svg>
