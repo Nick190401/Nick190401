@@ -1,76 +1,84 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" />
+<img src="./assets/header.svg" width="100%" alt="Nick Kleinjohann — Software Engineer" />
 
-<br/>
+<br />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=1800&pause=500&color=FFFFFF&center=true&vCenter=true&repeat=true&random=false&width=900&height=50&lines=%3E+building+systems;%3E+shipping+products;%3E+automating+everything;%3E+breaking+things+on+purpose;%3E+probably." />
+<strong>PRODUCT ENGINEERING&nbsp;&nbsp;·&nbsp;&nbsp;AI SYSTEMS&nbsp;&nbsp;·&nbsp;&nbsp;AUTOMATION</strong>
 
-<br/><br/>
+<br /><br />
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,supabase,postgres,docker,git,github,vscode&theme=dark&perline=11" />
-
-<br/><br/><br/>
-
-<code>FULL-STACK</code>
-    <code>AI SYSTEMS</code>
-    <code>AUTOMATION</code>
-    <code>SECURITY</code>
-
-<br/><br/><br/>
+<code>local-first when possible</code>&nbsp;&nbsp; <code>production-shaped always</code>
 
 </div>
 
+<br />
+
 ```text
-SYSTEM
-────────────────────────────────────────────────────────────
-
-architecture     simple
-execution        fast
-standards        high
-production       preferred
-unnecessary code disabled
-
-────────────────────────────────────────────────────────────
-STATUS           BUILDING
+MISSION CONTROL / NICK
+──────────────────────────────────────────────────────────────
+STATUS          shipping
+BASE            neutron star
+CURRENT SIGNAL  browser internals × applied AI × product engineering
+DEFAULT MODE    build → break → verify → ship
+──────────────────────────────────────────────────────────────
 ```
 
-<br/>
+> Software engineer with a tendency to build things that probably shouldn't exist.
+
+## `01 // OPERATING SYSTEM`
+
+```text
+ARCHITECTURE    simple
+EXECUTION       fast
+STANDARDS       high
+DETAILS         obsessive
+PRODUCTION      preferred
+UNNECESSARY     disabled
+```
+
+```text
+FULL-STACK ENGINEERING  ── interfaces backed by real systems
+AI SYSTEMS              ── grounded, observable, useful
+AUTOMATION              ── repetitive work does not survive
+SECURITY                ── trust boundaries before happy paths
+```
+
+## `02 // TOOLCHAIN`
+
+```text
+PRODUCT     React · Next.js · Vite · Phaser
+SYSTEMS     Node.js · Python · C++ · Chrome MV3
+DATA        Supabase · PostgreSQL · Row Level Security
+DELIVERY    Docker · GitHub Actions · test-first release gates
+```
 
 <div align="center">
 
-### CONTRIBUTIONS // LIVE
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,python,cpp,supabase,postgres,docker,git,github&theme=dark&perline=12" alt="TypeScript, JavaScript, React, Next.js, Node.js, Python, C++, Supabase, PostgreSQL, Docker, Git, and GitHub" />
 
-<br/>
+</div>
+
+## `03 // CONTRIBUTION SIGNAL`
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nick190401/Nick190401/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nick190401/Nick190401/output/github-contribution-grid-snake.svg">
-  <img alt="Contribution animation" src="https://raw.githubusercontent.com/Nick190401/Nick190401/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nick190401/Nick190401/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nick190401/Nick190401/output/github-contribution-grid-snake.svg" />
+  <img alt="Nick's GitHub contribution activity" src="https://raw.githubusercontent.com/Nick190401/Nick190401/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
 
-<br/><br/>
+<div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nick190401&bg_color=00000000&color=8b949e&line=ffffff&point=ffffff&area=true&area_color=303030&hide_border=true&custom_title=" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nick190401&amp;bg_color=00000000&amp;color=7d8b85&amp;line=73f7bf&amp;point=f4fff9&amp;area=true&amp;area_color=24513f&amp;hide_border=true&amp;hide_title=true" width="95%" alt="Nick's recent GitHub activity graph" />
 
-<br/><br/>
+<br />
 
 ```text
-IDEA  ─────►  BUILD  ─────►  BREAK  ─────►  FIX  ─────►  SHIP
-  ▲                                                       │
-  └────────────────────── REPEAT ─────────────────────────┘
+IDEA ─────► BUILD ─────► BREAK ─────► VERIFY ─────► SHIP
+  ▲                                                   │
+  └─────────────────── LEARN / REPEAT ────────────────┘
 ```
 
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&duration=2500&pause=1200&color=8B949E&center=true&vCenter=true&repeat=true&width=850&lines=complex+problems+%E2%86%92+simple+interfaces;ideas+%E2%86%92+systems;code+%E2%86%92+production" />
-
-<br/><br/>
-
-<h3>BUILD THINGS WORTH SHIPPING.</h3>
-
-<sub>Nick Kleinjohann // Software Engineer</sub>
-
-<br/><br/>
+<sub>Good systems survive contact with reality.</sub>
 
 </div>
